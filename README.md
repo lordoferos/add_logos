@@ -1,5 +1,5 @@
 # add_logos
-Adds logos to photos
+Adds logos to photos in python using the pillow module
 
 Example of photo with logo added
 
