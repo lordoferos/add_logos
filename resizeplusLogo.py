@@ -13,6 +13,7 @@ logoWidth, logoHeight = logoIm.size
 
 # Loop over all files in the working directory.
 os.makedirs('withLogo', exist_ok=True)
+
 for filename in os.listdir('.'):
     if not (filename.endswith('.png') or filename.endswith('.JPG')) \
         or filename == LOGO_FILENAME:
