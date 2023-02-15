@@ -1,12 +1,11 @@
 #! python3
 # resizeplusLogo.py - Resizes images and adds cat logo to lower right corner
-
 import os
 from PIL import Image
-
+# 
 SQUARE_FIT_SIZE = 600
 
-LOGO_FILENAME = 'twat.png'
+LOGO_FILENAME = 'twirl.png'
 
 logoIm = Image.open(LOGO_FILENAME)
 logoWidth, logoHeight = logoIm.size
